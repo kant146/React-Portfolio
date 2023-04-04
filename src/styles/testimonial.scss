@@ -1,0 +1,120 @@
+#testimonial{
+  width: 100%;
+  height: 100vh;
+  padding: $p;
+  background-color: $primaryBtn;
+  color: $color3_3;
+  overflow: hidden;
+
+  > h2{
+    font : 700 2.5rem $text2;
+    width: fit-content;
+    color: $color1;
+    border-bottom: 1px solid $color1;
+    padding: 0.5rem;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3rem;
+    text-shadow: 2px 2px $primaryBtnHover-2;
+  }
+
+  >section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    height: 40rem;
+    padding: 8rem;
+    background-color: $testimonialbg;
+    border-radius: 20px;
+    gap: 20px;
+
+    > article {
+      width: 30%;
+      height: 100%;
+      background-color: $primaryBtnHover;
+      color: $color1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      transition: all 0.3s;
+      position: relative;
+      border-radius: 10px;
+      
+      img{
+        top: 0%;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        filter: drop-shadow(0 0 20px rgba(0,0,0,0.35));
+      }
+      // >h4{
+      //   letter-spacing: 2px;
+      //   margin: 20px 0;
+      //   font-size: 0.9rem;
+      //   line-height: 160%;
+      //   text-align: center;
+      //   overflow: hidden;
+      //   // position: absolute;
+      // }
+      p{
+        letter-spacing: 2px;
+        margin: 20px 0;
+        font-size: 0.9rem;
+        line-height: 160%;
+        text-align: center;
+        overflow: hidden;
+        // position: absolute;
+
+      }
+
+
+    }
+
+
+    // > *{
+    //   width: 100%;
+    //   height: 100%;
+    //   background-color: $primaryBtnHover;
+    //   color: $color1;
+    //   display: flex;
+    //   flex-direction: column;
+    //   justify-content: center;
+    //   align-items: center;
+    //   transition: all 0.3s;
+
+ 
+
+    //   &:hover {
+    //     box-shadow: 0 0 5px 15px $primaryBtnHover-2;
+    //   }
+
+    //   // > svg{
+    //   //   color: $primaryBtn;
+    //   //   font-size: 3rem;
+    //   // }
+
+    //   article{
+    //     svg{
+    //       width: 200px;
+    //       height: 200px;
+    //       color: $primaryBtnHover;
+    //     }
+    //   }
+
+    // }
+
+    
+ 
+
+}
+
+
+}
+

@@ -1,0 +1,152 @@
+// footer{
+//   min-height: 100px;
+//   background-color: $primaryBtn;
+//   color: $imgbg;
+//   padding: 6rem 0;
+//   padding-left: $p;
+//   display: grid;
+//   grid-template-columns: 10fr 3fr 1fr;
+//   align-items: center;
+//   justify-content: center;
+//   text-align: center;
+
+
+//   >div{
+//     width: 100%;
+//     border-left: 2px solid $color1;
+//     border-right: 2px solid $color1;
+    
+
+
+//     >div{
+//       width: 100%;
+//       display: flex;
+//       flex-direction: column;
+//       >img{
+//         width: 100px;
+//         height: 100px;
+//         object-fit: contain;
+//         border-radius: 50%;
+  
+//       }
+
+//       >h2{
+//         margin: 1rem;
+//       }
+//       >p{
+//         font: 400 1.2rem $text2;
+//       }
+
+//       >aside>article{
+//         margin-top: 1rem;
+//         display: flex;
+//         flex-direction: column;
+//         svg{
+//           font-size: 2rem;
+//           color: $color1;
+//           &:hover{
+//             color: black;
+//           }
+//         }
+
+       
+
+//       }
+//       >a{
+//         text-decoration: none;
+//         width: 50px;
+//         height: 50px;
+//         background-color: $primaryBtnHover-2;
+//         border-radius: 50%;
+//         display: grid;
+//         place-items: center;
+
+//         >svg{
+//           font-size: 2rem;
+//           color: $color1;
+//         }
+//       }
+//     }
+    
+//   }
+// }
+
+
+
+footer {
+  min-height: 100px;
+  background-color: $primaryBtnHover;
+  color: $color1;
+  padding: 6rem 0;
+  padding-left: $p;
+  display: grid;
+  grid-template-columns: 10fr 3fr 1fr;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  > div { 
+    width: 80%;
+    // border-left: 2px solid $color1;
+    // border-right: 2px solid $color1;
+    
+    >div {
+    width: 100%;
+    border-left: 2px solid $color1;
+    border-right: 2px solid $color1;
+    > img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: contain;
+    }
+
+    > h2 {
+      margin: 1rem;
+    }
+    > p {
+      font: 400 1.2rem $text2;
+    }
+
+ 
+  }
+}
+
+.social > {
+  aside > article {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  svg {
+    font-size: 2rem;
+    color: $color1;
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+ a > {
+  // width: 50px;
+  // height: 50px;
+  display: grid;
+  place-items: center;
+  svg {
+    font-size: 2rem;
+    color: $color1;
+    background-color: $primaryBtn;
+    border-radius: 50%;
+    
+    margin-right: -100%;
+    transition: all 1s ease;
+  }
+  svg:hover{
+    background-color: $color1;
+    color: $primaryBtn;
+
+  }
+}
+
+}
+  
+}

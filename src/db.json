@@ -1,0 +1,49 @@
+{
+  "projects" :[
+    {
+      "date": "26/06/2021",
+      "title":"Indian Chicks And Feeds",
+      "description":"Indian Chicks And Feeds is a Fully Responsive Static Website with SEO and collect.Chat.Indian chicks and feed is a poultry farm they provide day old chicks, chicken and Egg.",
+      "url": "https://www.indianchicksworld.com/",
+      "imgSrc" : "https://bnz05pap002files.storage.live.com/y4mcTmYJT90w6Ki66wGYeMHZuNT717D_P9us_SJBnrCe-sa8Jx9ByYo6Or6E-CfcUXiCyV0Ut5zXpJ8B52d2XkpW5bf6hdH4PZWyG5VfvPUkqR7pc23AnzOXPveS2POKLmBNl2n3xYjCzhDVI2BN33Aq1f-8XmoctuYq6PYIHEnlpxdCgYXBRlw11Nv9HDcVBIAFvvoaXIrwO_wXkV-Lkpegf0NnLsbiBBOCYmA8btImu8?encodeFailures=1&width=1200&height=500"
+    },
+    {
+      "date": "01/06/2022",
+      "title":"WbjeeAimers",
+      "description":"WbjeeAimers is a Fully Responsive Php Consultancy & Blog Website with Complete SEO and collect.Chat.",
+      "url": "https://wbjeeaimers.co.in",
+      "imgSrc" : "https://bnz05pap002files.storage.live.com/y4miOCkdTmx2Z7PGHNuyWkjQhHwjm_WDa8gYaDiAD0fqeJeoXAZl41-bMeJx022savoQIDqudnASvLxV81Jej5xVUSqVITWwG469tXTYXvZmZOlsmOiGjpjHK0FLE6Cxs05_sIksjgKxX3JL3nFSkLvPK0bhXWIlTHx5xhmHd4IvDQm0i7Pl9VHGkz_Na5pNpOprX0Xcu2dI_4Rv8uvHkiOKJ36ZfDwogBg8tcYc4MS_q4?encodeFailures=1&width=1200&height=500"
+    },
+    {
+      "date": "01/06/2022",
+      "title":"Mahi Decor",
+      "description":"Mahi decor is a Fully Responsive Static Website with SEO.Mahi Decor is a Interior design and decor for your home.",
+      "url": "https://mahidecor.in/",
+      "imgSrc" : "https://bnz05pap002files.storage.live.com/y4m7oj4IAarR9uDNlh3l6pPG7qx_dSGIXvqSpR9vjPn6krWJvGDOsNcgj5hUzwZvYbjtaSWmQw3Qi4ipajFelvZUGNV32S9MMdJQNgJ_GH0zPT0QIHpdwCAdoVBoHAZevRG6WOWxyEnPX6Qv1LHtOT1KIVSBxOcByvp03fbYNlSSVaOFrdiLWJ-8xs0h9hW9XZOO0pqOD_ZQxjkFBXIv4ZaSm-hDKW3cKKk_2m6gaJImrc?encodeFailures=1&width=1200&height=500"
+    }
+  ]
+  ,
+  "Clients" :[
+    {
+      "date": "26/06/2021",
+      "title":"Indian Chicks And Feeds",
+      "description":"Indian Chicks And Feeds is a Fully Responsive Static Website with SEO and collect.Chat.Indian chicks and feed is a poultry farm they provide day old chicks, chicken and Egg.",
+      "url": "https://www.indianchicksworld.com/",
+      "imgSrc" : "https://www.indianchicksworld.com/assets/images/logo/01.png"
+    },
+    {
+      "date": "01/06/2022",
+      "title":"WbjeeAimers",
+      "description":"WbjeeAimers is a Fully Responsive Php Consultancy & Blog Website with Complete SEO and collect.Chat.",
+      "url": "https://wbjeeaimers.co.in",
+      "imgSrc" : "https://wbjeeaimers.co.in/v.2/assets/uploads/media-uploader/wbjee-black1661751922.png"
+    },
+    {
+      "date": "01/12/2022",
+      "title":"Mahi Decor",
+      "description":"Mahi decor is a Fully Responsive Static Website with SEO.Mahi Decor is a Interior design and decor for your home.",
+      "url": "https://mahidecor.in/",
+      "imgSrc" : "https://mahidecor.in/images/logo-default-189x35.png"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime js practice</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</head>
+<!-- https://codepen.io/anthonydugois/pen/mewdyZ -->
+<style>
+  #emoji{
+    font-size: 50px;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+  }
+  path{
+    /* display: none; */
+  }
+</style>
+<body>
+  <!-- <div id="emoji">Hello</div> -->
+    <div id="emoji"><img src="https://www.svgrepo.com/show/166394/paper-plane.svg" width="50px"></div>
+ <svg id="demo-svg" width="1000" height="500">
+  <path stroke="none" fill="none" d="M 54 442 L 159 156 L 294 439 L 435 136 L 555 417 L 684 136 L 785 416 Z"></path> </svg>
+  <script>
+    let path = anime.path('#demo-svg path');
+
+    anime({
+      targets: '#emoji',
+      translateX: path('x'),
+      translateY: path('y'),
+      // rotate:path('angle'),
+      easing:'linear',
+      duration:'50000',
+      loop:true,
+    })
+  </script>
+  
+
+ 
+<svg id="demo-svg" width="1000" height="500">
+<polygon stroke="none" fill="red" points="46 547,43 68,327 67,569 63,574 314,576 537"></polygon>  
+</svg>
+  <script>
+    anime({
+      targets: '#demo-svg polygon',
+      points:[
+        {value: '46 547,43 68,327 67,569 63,574 314,576 537'},
+        // {value: '50 450,54 107,236 98,447 95,444 259,415 437'},
+        {value: '50 450,130 133,271 274,447 95,300 331,415 437'}
+      ],
+      easing:'easeOutQuad',
+      duration:'2500',
+      loop:true,
+      direction:'alternate'
+    })
+  </script>
+
+
+</body>
+</html>

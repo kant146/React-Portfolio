@@ -1,0 +1,77 @@
+nav{
+  width: 100%;
+  height: 100px;
+  background: $primaryBackground;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 $p;
+  position: sticky;
+  top: 0%;
+  z-index: 60;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+  >a{
+    >h2 {
+      color: $primaryBtn;
+      text-shadow: 2px 3px rgba(255, 255, 255, 0.123);
+      font-size: 1.6rem;
+      font-family: $textHindi;
+      font-weight: 900;
+      
+      &:hover{
+        transition: all 0.3s ease;
+        scale: 1.08;
+        color: $color1;
+        text-shadow: 2px 3px rgba(14, 13, 13, 0.404);
+        cursor:default;
+      }
+    }
+  }
+
+
+  >div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    a{
+      color: $imgbg;
+      // font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s;
+      letter-spacing: 1px;
+      
+      &:hover{
+        color: $primaryBtn;
+        scale: 1.1;
+      }
+    }
+  }
+
+  >a > button{
+    border: 1px solid  $primaryBtn;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    background-color: $primaryBtn;
+    cursor: pointer;
+    color:$color1;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    &:hover{
+      color:$color2_1;
+      background: $primaryBtnHover;
+      border:1px solid $primaryBtnHover;
+      scale: 1.08;
+      box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+      
+    }
+  }
+}

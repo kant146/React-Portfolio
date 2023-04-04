@@ -1,0 +1,63 @@
+{
+  "projects" :[
+    {
+      "date": "26/06/2021",
+      "title":"Indian Chicks And Feeds",
+      "description":"Indian Chicks And Feeds is a Fully Responsive Static Website with SEO and collect.Chat.Indian chicks and feed is a poultry farm they provide day old chicks, chicken and Egg.",
+      "url": "https://www.indianchicksworld.com/",
+      "imgSrc" : "https://bnz05pap002files.storage.live.com/y4mDYp4LDfI_E-ukM6__rkbsCK3fv_pqXqHwx6lbjk513ZLxd7eKIGU4eMjq--xqF_wWcCk8YAC25dSfPi3Xwk2n84CRvpXEAOJgoHG0CUcylHlnR78VuymGwxxnrcad6VT8n2YBdrSYjip5lcIgd9Ga7WMP55qN-lhLqSAXp9NfwYZ4_pSGfngKXyrEyBNEYTv?width=1200&height=500&cropmode=none"
+    },
+    {
+      "date": "01/06/2022",
+      "title":"WbjeeAimers",
+      "description":"WbjeeAimers is a Fully Responsive Php Consultancy & Blog Website with Complete SEO and collect.Chat.",
+      "url": "https://wbjeeaimers.co.in",
+      "imgSrc" : "https://bnz05pap002files.storage.live.com/y4mtZlDLSqe_btvLFfaV7BOU9XpdUZjGkxzhb6I-RdLwBbb1xwUdMrhhFtiwh35DNgCAGcJ09u_ZsWcC7qZ_Gos-KwYx6u9miXNnI74u4GlBEgWQonACtiJhiO90nhylIob0x2qaiql-cbfm21BTa1LttGnKBWv7RS0jgQejX1bkJUTm4mt7ahIdg8Wg7RdO0dy?width=1200&height=500&cropmode=none"
+    },
+    {
+      "date": "01/06/2022",
+      "title":"Mahi Decor",
+      "description":"Mahi decor is a Fully Responsive Static Website with SEO.Mahi Decor is a Interior design and decor for your home.",
+      "url": "https://mahidecor.in/",
+      "imgSrc" : "https://bnz05pap002files.storage.live.com/y4mwBZZKZV3JIfdYoUkzfgQO3ZYDPjEFLQaD415Tc7daUvpRNROgxhbF-S7tnafuS0ksuOKxekmhI2XJHquZvgW6RFH4oZYNP1o4ukZFDykDdJKLKsLCWbM_SwYDIo9qz4DU7JLlB3-eFzKLVWxsW7-X6faEamxsjkaROiwCMMKE98_oecPEBgeF46n6yN7NXNn?width=1200&height=500&cropmode=none"
+    }
+  ]
+  ,
+  "Clients" :[
+    {
+      "date": "26/06/2021",
+      "title":"Indian Chicks And Feeds",
+      "description":"Indian Chicks And Feeds is a Fully Responsive Static Website with SEO and collect.Chat.Indian chicks and feed is a poultry farm they provide day old chicks, chicken and Egg.",
+      "url": "https://www.indianchicksworld.com/",
+      "imgSrc" : "https://bnz05pap002files.storage.live.com/y4mDYp4LDfI_E-ukM6__rkbsCK3fv_pqXqHwx6lbjk513ZLxd7eKIGU4eMjq--xqF_wWcCk8YAC25dSfPi3Xwk2n84CRvpXEAOJgoHG0CUcylHlnR78VuymGwxxnrcad6VT8n2YBdrSYjip5lcIgd9Ga7WMP55qN-lhLqSAXp9NfwYZ4_pSGfngKXyrEyBNEYTv?width=1200&height=500&cropmode=none"
+    },
+    {
+      "date": "01/06/2022",
+      "title":"WbjeeAimers",
+      "description":"WbjeeAimers is a Fully Responsive Php Consultancy & Blog Website with Complete SEO and collect.Chat.",
+      "url": "https://wbjeeaimers.co.in",
+      "imgSrc" : "https://wbjeeaimers.co.in/v.2/assets/uploads/media-uploader/wbjee-black1661751922.png"
+    },
+    {
+      "date": "01/12/2022",
+      "title":"Mahi Decor",
+      "description":"Mahi decor is a Fully Responsive Static Website with SEO.Mahi Decor is a Interior design and decor for your home.",
+      "url": "https://mahidecor.in/",
+      "imgSrc" : "https://mahidecor.in/images/logo-default-189x35.png"
+    }
+  ],
+  "Personal_Info": [
+    {
+      "name": "Krishnakant Kumar",
+      "perImage": "https://avatars.githubusercontent.com/u/47590877?v=4",
+      "address": "C/O- KK SINGH ,Gandhi Nagar, Katihar, Bihar, India",
+      "college":"Brainware University",
+      "education":"B.Tech in Computer Science and Engineering",
+      "instagram": "https://www.instagram.com/kant_146/",
+      "facebook" : "https://www.facebook.com/omgkant.146",
+      "linkedin": "https://www.instagram.com/kant_146/",
+      "whatsapp": "https://api.whatsapp.com/send?phone=918709492410",
+      "github":"https://github.com/kant146"
+    }
+  ]
+}
